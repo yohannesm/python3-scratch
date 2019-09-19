@@ -15,3 +15,5 @@ stack.append(7)
 
 print(stack)
 assert checkListEquality(stack, [3, 4, 5, 6, 7])
+assert stack.pop() == 7
+assert stack.pop() == 6
