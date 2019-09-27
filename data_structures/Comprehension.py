@@ -36,4 +36,14 @@ assert flatten_vec2 == [1, 2, 3, 4, 5, 6, 7, 8, 9]
 complex_pi_formatting = [str(round(pi, i)) for i in range(1, 6)]
 print(complex_pi_formatting)
 
+name = ["Marcell", "Charles", "Lelouch", "Astra"]
+roll_no = [4, 1, 3, 2]
+marks = [90, 50, 60, 30]
+#Make a set of Tuple3 using zip
+mapped_set = set(zip(name, roll_no, marks))
+print(mapped_set)
+#Make a dict using zip
+mapped_dict = dict(zip(name, marks))
+print(mapped_dict)
+
 print("comprehension finished")
